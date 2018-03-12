@@ -16,7 +16,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = "Features",
-		glue= {""}
+		glue= {"com.webtest.tests"}
 		)
 
 public class CucumberRunner {
